@@ -1,5 +1,4 @@
 FROM tomcat:9-jdk8
-LABEL author="sivaramaprasaditrajula"
-ADD gol Dockercontnent\gameoflife.war
+LABEL author="khaja"
 EXPOSE 8080
-CMD ["/opt/tomcat/bin/catalina.sh", "run"]
+ADD https://referenceapplicationskhaja.s3.us-west-2.amazonaws.com/gameoflife.war /usr/local/tomcat/webapps/gameoflife.war
