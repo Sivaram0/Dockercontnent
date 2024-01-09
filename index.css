@@ -1,0 +1,14 @@
+.headed {
+    text-align: center;
+    color: blue;
+    background-color: grey;
+    color: green;
+}
+
+.body {
+    color: blue;
+}
+
+.th {
+    font-size: large;
+}
